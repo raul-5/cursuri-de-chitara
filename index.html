@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    
+        <title>Cursuri de chitara</title>
+    
+        <link href="CSS/styleIndex.css" rel="stylesheet" type="text/css">
+    
+        <script src="scripts/script.js"></script>
+    
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+</head>
+<body>
+    
+
+    <h1 id="title">Cursuri de chitara</h1>
+    
+    
+    <div id="start">
+       <a href="home.html" id="link">Start</a>
+    </div>
+    
+    
+    <!--<iframe src="audio/silence.mp3" allow="autoplay" style="display:none"></iframe>    -->
+    
+    <audio id="player" autoplay controls loop>
+        <source src="audio/californication1.mp3" type="audio/mp3">
+    </audio>
+    
+    
+    <div id="control">
+    <button onclick="startStop();mt();">
+        
+        <img src="images/on.png" height="15px" id="vol">
+    
+    </button>
+    </div>
+    
+    <script>
+        
+    function startStop() {
+        var change = document.getElementById("vol");
+        if(change.src.match("on")) {
+            change.src = "images/off.png";
+
+        }
+        else {
+                change.src = "images/on.png";
+        }
+    }
+
+
+    var sw =  document.getElementById("player");
+
+    function mt() {
+    
+        if(sw.muted) {
+                        sw.muted = false;
+            
+        } 
+        else {
+                sw.muted = true;
+        }
+    }
+    
+    </script>
+    
+    <!--<button id="mutebtn">
+    <img src="images/on.png" height="20px" id="vol">
+    
+    </button>-->
+    
+    
+</body>
+</html>
