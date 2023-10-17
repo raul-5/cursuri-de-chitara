@@ -1,0 +1,814 @@
+body {
+        width: 100%;
+        
+       
+        margin: auto;
+        font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+@font-face {
+            font-family: allura regular;
+            src: url(../fonts/Allura-Regular.ttf);
+    
+}
+
+
+
+header {
+        text-align: center;
+        background-image: url("../images/guitar_new.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        
+        
+}
+
+#logo {
+        font-family: allura regular;
+        font-size: 80px;
+        text-decoration: none;
+        padding: 20px;
+        color: #B6B6B6;
+        font-weight: bold;
+        display: inline-block;
+        
+        
+}
+
+/* bara de navigare */
+
+#baraNav {
+            display: inline-block;
+            list-style-type: none;
+            margin-left: 150px;
+            
+            
+}
+
+#meniu {
+        
+        
+        
+}
+
+#meniu li {
+            display: inline;
+            padding: 10px;
+            
+            
+}
+
+
+.links {
+        font-family: 'Noto Sans', sans-serif;
+        text-decoration: none;
+        color: #B6B6B6;
+        padding: 10px;
+        transition: 0.5s;
+    
+}
+
+.links:hover {
+                
+                color: ghostwhite;
+            
+}
+
+
+
+
+/* bara nav scroll down */
+
+
+
+#scrollNav {
+            background-color: #333;
+            position: fixed;
+            top: -60px;
+            width: 100%;
+            display: block;
+            transition: top 0.6s;
+            z-index: 5;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            
+            
+                    
+                
+}
+
+
+#scrollNav a {
+                /*float: left;*/
+                font-family: 'Noto Sans', sans-serif;
+                display: inline-block;
+                color: #B6B6B6;
+                text-align: center;
+                padding: 15px 41px;
+                text-decoration: none;
+                font-size: 17px;
+                
+}
+
+#scrollNav a:hover {
+                      background-color: #B6B6B6;
+                      color: black;
+}
+
+
+
+
+/* aici se temina bara nav scroll down */
+
+
+
+/* DROPDOWN LIST IN SCROLL NAV */
+
+.dropbtn1 {
+            font-family: 'Noto Sans', sans-serif;
+            text-decoration: none;
+            color: #B6B6B6;
+            padding: 10px;
+            transition: 0.5s;
+               
+}
+
+.dropdown1 {
+            position: relative;
+            display: inline-block; 
+    
+}
+
+.dropdownContent1 {
+                    display: none;
+                    position: absolute;
+                    top: 53px;
+                    background-color: #333;
+                    min-width: 244px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdownContent1 .a1 {
+                        color: #3D3D3D;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+    
+}
+
+.dropdownContent1 .a1:hover {background-color: #333;
+                            color: white;}
+
+.dropdown1:hover .dropdownContent1 {display: block;}
+
+.dropdown1:hover .dropbtn1 {color: ghostwhite;}
+
+
+/* AICI SE TERMINA DROPDOWN LIST IN SCROLL NAV */
+
+
+
+/* DROPDOWN LIST */
+
+.dropbtn {
+            font-family: 'Noto Sans', sans-serif;
+            text-decoration: none;
+            color: #B6B6B6;
+            padding: 10px;
+            transition: 0.5s;
+        
+        
+        
+}
+
+.dropdown {
+            position: relative;
+            display: inline-block; 
+    
+}
+
+.dropdown-content {
+                    display: none;
+                    position: absolute;
+                    top: 25px;
+                    background-color: #B6B6B6;
+                    min-width: 180px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    
+                      
+}
+
+.dropdown-content a {
+                        color: #3D3D3D;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: #333;
+                            color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: ghostwhite;}
+
+
+/* AICI SE TERMINA DROPDOWN LIST  */ 
+
+
+
+
+#leftA {
+        margin-top: 126px;
+        width: 20%;
+        float: left;  
+        
+}
+
+
+
+main {
+        width: 60%;
+        margin: auto;
+        line-height: 30px;
+        
+        
+       
+}
+
+
+/* doar pentru pagina Home si Despre*/
+
+#mainCont {
+            width: 100%;
+}
+
+
+/* doar pentru pagina Home si Despre */
+
+
+
+
+/* titlu heading 1 */
+
+.title1 {
+            width: 60%;
+            margin: 50px auto;
+            font-size: 25px;
+             
+}
+
+
+.title2 {
+            width: 100%;
+            margin: 50px auto;
+            font-size: 25px;
+            text-align: left;
+            margin-left: 80px;
+}
+
+
+.subtitle {
+            width: 100%;
+            margin: 30px auto;
+            font-size: 20px;
+            margin-left: 80px;
+            
+            
+}
+
+.sub3 {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 18px;
+        font-style: italic;
+        margin-left: 80px;
+        
+}
+
+/* paragrafele din main */
+
+.text {
+        width: 60%;
+        margin: auto;
+        text-align: justify;
+        padding: 30px;
+}
+
+
+.text1 {
+        width: 100%;
+        margin: auto;
+        text-align: justify;
+        padding: 30px;
+        margin-left: 50px;
+    
+}
+
+#listTitle {
+            margin-bottom: 0px;
+            
+            
+}
+
+
+
+#list {
+            width: 60%;
+            margin: auto;
+            text-align: justify;
+            padding: 30px;
+            list-style-type: circle;
+
+}
+
+
+
+
+/* pentru paginile cu lectii */
+
+
+.listLectii {
+                width: 100%;
+                text-align: justify;
+                padding: 30px;
+                list-style-type: circle;
+                margin-left: 50px;
+}
+
+.chords {
+            width: 30%;
+            margin-left: 150px;
+            margin-bottom: 50px;
+            display: inline-block;
+            
+           
+            
+}
+
+.clip {
+        display: inline-block;
+        margin-left: 150px;
+        
+}
+
+
+/* pentru pagina lectii 1 */
+
+
+h2 {
+    width: 60%;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+
+h3 {
+    width: 60%;
+    margin: 10px auto;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.pics {
+        float: left;
+        padding-right: 15px;
+        padding-top: 10px;
+}
+
+.list1 {
+        width: 60%;
+        margin: auto;
+        text-align: justify;
+        list-style-type: circle;
+}
+
+
+.pics2 {
+        float: right;
+        padding-left: 15px;
+        
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+
+/* bara de navigare din aside */
+
+#asideNav {
+            
+}
+
+#meniuAside {
+                list-style-type: none;
+                width: 75%;
+                
+}
+
+#meniuAside li {
+                padding: 20px;
+                /*border-bottom: 1px solid #B6B6B6;*/
+                
+                
+}
+
+.links2 {
+            text-decoration: none;
+            color: #898989;
+            transition: 0.5s;
+            
+}
+
+li:hover .links2 {
+                    color: black;
+                    
+}
+
+
+.separator {
+            width: 1px;
+            height: 680px;
+            color: #FFFFFF;
+            background: #5F5F5F;
+            background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#5F5F5F), to(#FFFFFF));
+            float: left;
+            margin-top: 50px;
+                      
+}
+
+.separator2 {
+                width: 100%;
+                height: 1px;
+                color: #FFFFFF;
+                background: #5F5F5F;
+                background: -webkit-gradient(radial, 50% 50%, 10, 50% 50%, 150, from(#5F5F5F), to(#FFFFFF));
+                float: left;
+}
+
+
+.separator3 {
+                width: 1px;
+                height: 820px;
+                color: #FFFFFF;
+                background: #5F5F5F;
+                background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 450, from(#5F5F5F), to(#FFFFFF));
+                float: right;
+                margin-top: 50px;
+                      
+}
+
+
+section {
+            width: 100%;   
+            background-color: #D5D5D5;
+            display: inline-block;
+            margin-top: 50px;
+            float: left;
+            /*text-align: center;*/
+            
+            
+}
+
+
+.sect1 {
+        width: 18%;
+        text-align: left;
+        margin: auto;
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        /*border: 1px solid black;*/
+        padding: 10px;
+        /*margin-left: 50px;*/
+        
+            
+        
+}
+
+
+.sect2 {
+        width: 10%;
+        text-align: left;
+        margin: auto;
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        /*border: 1px solid black;*/
+        padding: 10px;
+        /*margin-left: 50px;*/
+}
+
+h4 {
+        width: 90%;
+        font-weight: 100;
+        font-size: 18px;
+        font-style: italic;
+        margin: auto;
+        padding: 10px;
+        
+        
+       
+}
+
+
+.sectP {
+        width: 90%;
+        font-size: 13px;
+        color: #5F5F5F;
+        line-height: 25px;
+        margin: auto;
+        
+}
+
+
+.siteLinks {
+            color: #5F5F5F;
+}
+
+
+footer {
+        width: 100%;
+        height: 50px;
+        color: #B6B6B6;
+        float: left;
+        /*margin-top: 50px;*/
+        background-color: #3D3D3D;
+        /*opacity: 0.8;*/
+        text-align: center;
+        line-height: 50px;
+}
+
+
+
+/* VARIANTA PENTRU MOBIL */
+
+
+@media (max-width: 600px) {
+    
+    
+    header {
+        text-align: center;
+        background-image: url("../images/guitar_new.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        
+        
+}
+    
+    
+    #logo {
+            width: 90%;
+            font-family: allura regular;
+            font-size: 50px;
+            text-decoration: none;
+            padding: 20px;
+            color: #B6B6B6;
+            font-weight: bold;
+            display: inline-block;
+            margin: auto;
+             
+}
+    
+    main {
+            width: 100%;
+            margin: auto;
+            line-height: 30px;
+       
+}
+    
+    .text {
+            width: 80%;
+            margin: auto;
+            text-align: justify;
+            padding: 30px;
+}
+ 
+    .text1 {
+            width: 80%;
+            margin: auto;
+            text-align: justify;
+            padding: 30px;
+            
+    
+}
+    
+    .listLectii {
+                    width: 80%;
+                    text-align: justify;
+                    padding: 30px;
+                    list-style-type: circle;
+                    margin: auto;
+}
+    
+        
+.title2 {
+            width: 80%;
+            margin: 50px auto;
+            font-size: 25px;
+            text-align: left;
+            
+}
+
+
+.subtitle {
+            width: 80%;
+            margin: 30px auto;
+            font-size: 20px;
+            
+            
+            
+}
+
+.sub3 {
+        width: 80%;
+        margin: 10px auto;
+        font-size: 18px;
+        font-style: italic;
+        
+        
+}
+    
+    
+    
+    
+  #list {
+            width: 80%;
+            margin: auto;
+            text-align: justify;
+            padding: 30px;
+            list-style-type: circle;
+
+}  
+    
+    
+   .list1 {
+        width: 80%;
+        margin: auto;
+        text-align: justify;
+        list-style-type: circle;
+} 
+    
+    
+    h3 {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 18px;
+    font-style: italic;
+}
+    
+  h2 {
+    width: 80%;
+    margin: 30px auto;
+    font-size: 20px;
+}  
+    
+ .title1 {
+            width: 80%;
+            margin: 50px auto;
+            font-size: 25px;
+    
+}   
+    
+    
+ #baraNav {
+            width: 100%;
+            list-style-type: none;
+            margin-left: 0px;
+            margin: auto;
+            
+}   
+ 
+    
+.links {
+        font-family: 'Noto Sans', sans-serif;
+        text-decoration: none;
+        color: #B6B6B6;
+        padding: 10px;
+        transition: 0.5s;
+        font-size: 12px;
+    
+}
+    
+    .dropbtn, .dropdown-content a {
+                font-size: 12px;
+    }
+    
+#scrollNav {
+            background-color: #333;
+            position: fixed;
+            top: -120px;
+            width: 100%;
+            display: block;
+            transition: top 0.6s;
+            z-index: 5;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);                   
+                
+}    
+    
+#scrollNav a {
+                /*float: left;*/
+                font-family: 'Noto Sans', sans-serif;
+                display: inline-block;
+                color: #B6B6B6;
+                text-align: center;
+                padding: 10px 23px;
+                text-decoration: none;
+                font-size: 12px;
+                
+}  
+    
+.dropdownContent1 {
+                    display: none;
+                    position: absolute;
+                    top: 36px;
+                    background-color: #333;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}    
+
+    
+.sect1 {
+        width: 30%;
+        text-align: left;
+        margin: auto;
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        /*border: 1px solid black;*/
+        padding: 10px;
+        margin-left: 50px;
+            
+        
+}    
+    
+    
+    .sect2, #leftA, #rightA, .separator2, .separator3 {
+            display: none;
+    }
+    
+  
+.chords {
+            width: 50%;
+            margin-left: 100px;
+            margin-bottom: 50px;
+            display: inline-block;
+            
+           
+            
+}
+    
+.clip {
+        display: inline-block;
+        margin-left: 50px;
+        
+} 
+    
+    
+    #img1 {
+            width: 200px;
+            height: 200px;
+    }
+    
+    #img2 {
+            width: 130px;
+            height: 220px;
+    }
+
+    #img3 {
+            width: 250px;
+            height: 150px;
+    }
+
+    #img4 {
+            width: 300px;
+            height: 120px;
+            padding-left: 25px;
+            padding-top: 15px;
+    }
+
+    #img5 {
+            width: 90px;
+            height: 250px;
+            padding-right: 25px;
+        
+    }
+
+
+
+
+
+
+
+
+
+

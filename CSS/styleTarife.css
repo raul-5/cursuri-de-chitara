@@ -1,0 +1,669 @@
+body {
+        width:  100%;
+        
+       
+        margin: auto;
+        font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+@font-face {
+            font-family: allura regular;
+            src: url(../fonts/Allura-Regular.ttf);
+    
+}
+
+
+
+header {
+        text-align: center;
+        background-image: url("../images/guitar_new.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        
+        
+}
+
+#logo {
+        font-family: allura regular;
+        font-size: 80px;
+        text-decoration: none;
+        padding: 20px;
+        color: #B6B6B6;
+        font-weight: bold;
+        display: inline-block;
+        
+        
+}
+
+/* bara de navigare */
+
+#baraNav {
+            display: inline-block;
+            list-style-type: none;
+            margin-left: 150px;
+            
+            
+}
+
+#meniu {
+        
+        
+        
+}
+
+#meniu li {
+            display: inline;
+            padding: 10px;
+            
+            
+}
+
+
+.links {
+        font-family: 'Noto Sans', sans-serif;
+        text-decoration: none;
+        color: #B6B6B6;
+        padding: 10px;
+        transition: 0.5s;
+    
+}
+
+.links:hover {
+                
+                color: ghostwhite;
+            
+}
+
+
+
+/* bara nav scroll down */
+
+
+
+#scrollNav {
+            background-color: #333;
+            position: fixed;
+            top: -60px;
+            width: 100%;
+            display: block;
+            transition: top 0.3s;
+            z-index: 5;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            
+            
+                    
+                
+}
+
+
+#scrollNav a {
+                /*float: left;*/
+                font-family: 'Noto Sans', sans-serif;
+                display: inline-block;
+                color: #B6B6B6;
+                text-align: center;
+                padding: 15px 41px;
+                text-decoration: none;
+                font-size: 17px;
+                
+}
+
+#scrollNav a:hover {
+                      background-color: #B6B6B6;
+                      color: black;
+}
+
+
+
+
+/* aici se temina bara nav scroll down */
+
+
+
+/* DROPDOWN LIST IN SCROLL NAV */
+
+.dropbtn1 {
+            font-family: 'Noto Sans', sans-serif;
+            text-decoration: none;
+            color: #B6B6B6;
+            padding: 10px;
+            transition: 0.5s;
+               
+}
+
+.dropdown1 {
+            position: relative;
+            display: inline-block; 
+    
+}
+
+.dropdownContent1 {
+                    display: none;
+                    position: absolute;
+                    top: 53px;
+                    background-color: #333;
+                    min-width: 244px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdownContent1 .a1 {
+                        color: #3D3D3D;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+    
+}
+
+.dropdownContent1 .a1:hover {background-color: #333;
+                            color: white;}
+
+.dropdown1:hover .dropdownContent1 {display: block;}
+
+.dropdown1:hover .dropbtn1 {color: ghostwhite;}
+
+
+/* AICI SE TERMINA DROPDOWN LIST IN SCROLL NAV */
+
+
+
+/* DROPDOWN LIST */
+
+.dropbtn {
+            font-family: 'Noto Sans', sans-serif;
+            text-decoration: none;
+            color: #B6B6B6;
+            padding: 10px;
+            transition: 0.5s;
+        
+        
+        
+}
+
+.dropdown {
+            position: relative;
+            display: inline-block; 
+    
+}
+
+.dropdown-content {
+                    display: none;
+                    position: absolute;
+                    top: 25px;
+                    background-color: #B6B6B6;
+                    min-width: 180px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 5;
+                      
+}
+
+.dropdown-content a {
+                        color: #3D3D3D;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: #333;
+                            color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: ghostwhite;}
+
+
+/* AICI SE TERMINA DROPDOWN LIST  */ 
+
+
+
+main {
+        width: 70%;
+        margin: auto;
+        /*margin-top: 200px;*/
+        line-height: 30px;
+        height: 800px;
+        margin-top: 50px;
+       
+}
+
+
+
+
+/* Casetele de pret cu imagini */
+
+.mainCont1, .mainCont3 {
+                        width: 380px;
+                        height: 380px;
+                        margin: auto;
+                        border-radius: 50%;
+                        /*margin-left: 100px;*/
+                        display: inline-block;
+                        position: relative;
+                        float: left;
+                        text-align: center;
+                        background-image: url(../images/chitara_clasica.jpg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                
+                        
+}
+
+.mainCont3 {
+                background-image: url(../images/guitars.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+}
+
+.mainCont1:hover .container1 {display: inherit;}
+.mainCont3:hover .container1 {display: inherit;}
+
+
+.desc1{
+        
+        width: 30%;
+        height: 500px;
+        float: left;
+        display: table;
+        position: relative;
+        /*margin-left: 100px;*/
+        
+    
+}
+
+.desc2 {
+        
+        height: 500px;
+        width: 30%;
+        float: right;
+        display: table;
+        position: relative;
+        /*margin-right: 100px;*/
+}
+
+
+
+
+.container1 {
+                width: 380px;
+                height: 380px;
+                margin: auto;
+                border-radius: 50%;
+                background-color: #3D3D3D;
+                /*margin-left: 100px;*/
+                display: inline-block;
+                position: relative;
+                
+                /*float: left;*/
+                text-align: center;
+                display: none;
+                            
+}
+
+
+.mainCont2, .mainCont4 {
+                            width: 380px;
+                            height: 380px;
+                            margin: auto;
+                            border-radius: 50%;
+                            text-align: center;
+                            display: inline-block;
+                            float:right;
+                           /* margin-right: 100px;*/
+                            position: relative;
+                            background-image: url(../images/fender.jpg);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                
+    
+}  
+
+.mainCont4 {
+                background-image: url(../images/learningGuitar.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+}
+
+.mainCont2:hover .container2 {display: inherit;}
+.mainCont4:hover .container2 {display: inherit;}
+
+
+.container2 {
+                width: 380px;
+                height: 380px;
+                margin: auto;
+                border-radius: 50%;
+                text-align: center;
+                background-color: #3D3D3D;
+                display: inline-block;
+                /*float:right;*/
+                /*margin-right: 100px;*/
+                position: relative;
+                display: none;
+}
+
+
+
+.separator {
+            clear: both;
+            height: 30px;
+}
+
+
+
+.text1 {
+        width: 100%;
+        margin: auto;
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        
+}
+
+.text2{
+        font-size: 15px;
+       
+}
+
+
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+
+.price {
+        width: 50%;
+        font-size: 60px;
+        color: ghostwhite;
+        font-weight: bold;
+        position: relative;
+        top: 100px;
+        left: 15px;
+        margin: auto;
+        
+        
+}
+
+
+
+.sUp {
+       font-weight: 500;
+        color: ghostwhite;
+        position:relative; 
+        left: 15px;
+        top:-5px;
+        font-size: 20px;
+}
+
+
+.sUb {
+        color: ghostwhite; 
+        font-size: 15px;
+        position: relative;
+        top: 0px;
+        left: -15px;
+        line-height: 0px;
+        
+        
+}
+
+
+.linkForm {
+            padding: 10px 20px;
+            font-size: 15px;
+            font-weight: bold;
+            position: relative;
+            top: 180px;
+            text-decoration: none;
+            color: black;
+            background-color: #B6B6B6;
+            border-radius: 20px;
+            letter-spacing: 2px;
+            transition: 0.5s;
+}
+
+
+.linkForm:hover {
+                background-color: #898989;
+                color: white;
+}
+
+
+.text3 {
+        width: 100%;
+        float: left;
+        text-align: center;
+        
+}
+
+
+section {
+            width: 100%;   
+            background-color: #D5D5D5;
+            display: inline-block;
+            margin-top: 50px;
+            float: left;
+            /*text-align: center;*/
+            
+            
+}
+
+
+.sect1 {
+        width: 18%;
+        text-align: left;
+        margin: auto;
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        /*border: 1px solid black;*/
+        padding: 10px;
+        /*margin-left: 50px;*/
+            
+        
+}
+
+
+.sect2 {
+        width: 10%;
+        text-align: left;
+        margin: auto;
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        /*border: 1px solid black;*/
+        padding: 10px;
+        /*margin-left: 50px;*/
+}
+
+h4 {
+        width: 90%;
+        font-weight: 100;
+        font-size: 18px;
+        font-style: italic;
+        margin: auto;
+        padding: 10px;
+        
+        
+       
+}
+
+
+.sectP {
+        width: 90%;
+        font-size: 13px;
+        color: #5F5F5F;
+        line-height: 25px;
+        margin: auto;
+        
+}
+
+
+.siteLinks {
+            color: #5F5F5F;
+}
+
+
+
+footer {
+        width: 100%;
+        height: 50px;
+        color: #B6B6B6;
+        float: left;
+        /*margin-top: 50px;*/
+        background-color: #3D3D3D;
+        /*opacity: 0.8;*/
+        text-align: center;
+        line-height: 50px;
+}
+
+
+
+/* VARIANTA PENTRU MOBIL */
+
+
+@media (max-width: 600px) {
+    
+    
+    header {
+        text-align: center;
+        background-image: url("../images/guitar_new.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        
+        
+}
+    
+    
+    #logo {
+            width: 90%;
+            font-family: allura regular;
+            font-size: 50px;
+            text-decoration: none;
+            padding: 20px;
+            color: #B6B6B6;
+            font-weight: bold;
+            display: inline-block;
+            margin: auto;
+             
+}
+    
+    main {
+            width: 90%;
+            margin: auto;
+            line-height: 30px;
+       
+}
+    
+
+    
+    
+ #baraNav {
+            width: 100%;
+            list-style-type: none;
+            margin-left: 0px;
+            margin: auto;
+            
+}   
+  
+    
+.links {
+        font-family: 'Noto Sans', sans-serif;
+        text-decoration: none;
+        color: #B6B6B6;
+        padding: 10px;
+        transition: 0.5s;
+        font-size: 12px;
+    
+}
+    
+.dropbtn, .dropdown-content a {
+                font-size: 12px;
+    }
+    
+#scrollNav {
+            background-color: #333;
+            position: fixed;
+            top: -120px;
+            width: 100%;
+            display: block;
+            transition: top 0.6s;
+            z-index: 5;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);                   
+                
+}    
+    
+#scrollNav a {
+                /*float: left;*/
+                font-family: 'Noto Sans', sans-serif;
+                display: inline-block;
+                color: #B6B6B6;
+                text-align: center;
+                padding: 10px 23px;
+                text-decoration: none;
+                font-size: 12px;
+                
+}  
+    
+.dropdownContent1 {
+                    display: none;
+                    position: absolute;
+                    top: 36px;
+                    background-color: #333;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}    
+
+    
+.sect1 {
+        width: 30%;
+        text-align: left;
+        margin: auto;
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        /*border: 1px solid black;*/
+        padding: 10px;
+        margin-left: 50px;
+            
+        
+}    
+    
+    
+    .sect2, #leftA, #rightA, .separator2, .separator3 {
+            display: none;
+    }
+    
+    h1 {
+        margin-top: 50px;
+    }
+   
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

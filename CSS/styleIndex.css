@@ -1,0 +1,152 @@
+html { 
+		  background: url("../images/guitar_new.jpg") no-repeat center center fixed;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+       
+}
+
+
+
+@font-face {
+            font-family: allura regular;
+            src: url(../fonts/Allura-Regular.ttf);
+    
+}
+
+#title {
+        width: 30%;
+        margin: auto;
+        font-family: allura regular;
+        font-size: 80px;
+        position: relative;
+        top: 30px;
+        left: 220px;
+        color: #B6B6B6;
+        opacity: 0.6;
+        
+}
+
+
+#start {
+            width: 20%;
+            margin: auto;
+            height: 100px;
+            position: relative;
+            top: 380px;
+            left: 550px;
+            
+}
+
+
+
+#link {
+        
+        
+        font-size: 30px;
+        font-family: cursive;
+        color: ghostwhite;
+        text-decoration: none;
+        padding: 20px 100px;
+        border-radius: 5px;
+        background-color: cadetblue;
+        opacity: 0.3;
+        animation-name: pulse;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        
+}
+
+#link:hover {
+            opacity: 0.5;
+            padding: 21px 102px;
+            animation: none;
+}
+
+
+
+@keyframes pulse {
+                    0%{ opacity:0.3;}
+                    50%{opacity:0.5;}
+                    100%{opacity: 0.3;}
+
+}
+
+#player {
+         visibility: hidden;
+}
+
+
+
+button {  
+            background-color: ghostwhite;
+            opacity: 0.6;
+            outline: none;
+            border-radius: 10px;
+            padding: 3px 6px;
+            
+}
+
+
+#control {
+            width: 10%;
+            
+            position: relative;
+            margin: auto;
+            left: 680px;
+            top: -340px;
+            text-align: right;
+    
+    
+}
+
+
+@media (max-width:600px) {
+    
+    
+    html { 
+		  background: url("../images/guitar_new.jpg") no-repeat center center fixed ;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+       
+}
+    
+    body {
+            width: 40%;
+    } 
+    
+    #title {
+            width: 80%;
+            margin: auto;
+            top: 50px;
+            /*left: 250px;*/
+            font-size: 50px;
+    }
+    
+    #start {
+            width: 20%;
+            left: 50px;
+            top: 450px;
+            
+            
+    }
+    
+    #control {
+                width: 10%;
+                left: 420px;
+                top: -280px;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
